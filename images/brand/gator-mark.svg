@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FB8FF"/>
+      <stop offset="0.45" stop-color="#2E7BFF"/>
+      <stop offset="0.6" stop-color="#0F4FDB"/>
+      <stop offset="1" stop-color="#0021A5"/>
+    </linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF8A5C"/>
+      <stop offset="0.5" stop-color="#FA4616"/>
+      <stop offset="1" stop-color="#C93A10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge plate -->
+  <rect x="2" y="2" width="92" height="92" rx="20"
+        fill="#12141A" stroke="#C9B37A" stroke-opacity="0.65" stroke-width="1.5"/>
+
+  <!-- Angular block-G ring: octagonal loop with open mouth at right -->
+  <path fill="url(#gBlue)" d="
+    M 48 12
+    L 69 18
+    L 82 30
+    L 85 40
+    L 71 41
+    L 64 29
+    L 55 23
+    L 48 21
+    L 33 25
+    L 23 34
+    L 19 48
+    L 23 62
+    L 33 71
+    L 48 75
+    L 56 72
+    L 65 65
+    L 68 57
+    L 80 56
+    L 79 64
+    L 67 77
+    L 48 83
+    L 28 77
+    L 16 64
+    L 12 48
+    L 16 32
+    L 28 19
+    Z"/>
+
+  <!-- Orange crossbar (the G arm) -->
+  <path fill="url(#gOrange)" d="
+    M 46 42
+    L 84 42
+    L 84 50
+    L 62 50
+    L 60 60
+    L 50 60
+    L 52 50
+    L 46 50
+    Z"/>
+</svg>
